@@ -1,0 +1,12 @@
+
+Proof of genral Tarai function termination problem.
+
+This proof highly bases on Ishiu's proof "http://arxiv.org/abs/1007.0467".
+
+Files
+
+ * Tarai_Base.v: Defition of general Tarai function.
+ * Denotation.v: Facts from denotational semantics.
+ * Util.v: Utility lemmas.
+ * Tarai.v: Main theorem.
+
