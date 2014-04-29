@@ -4,6 +4,8 @@ Require Import Tarai_Base.
 
 Open Scope Z_scope.
 
+Generalizable All Variables.
+
 Class PreOrder (A: Type) := {
   le: A -> A -> Prop;
   preorder_refl: forall x, le x x;
